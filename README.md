@@ -1,6 +1,8 @@
 # tldr-transformers
 
-The tl;dr on a few notable transformer/language model papers + other papers (alignment, memorization, etc). Models: GPT- *, * BERT *, Adapter- *, * T5, etc.
+The tl;dr on a few notable transformer/language model papers + other papers (alignment, memorization, etc). 
+
+<ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, etc.
 
 <p float="left">
 <p align="middle">
