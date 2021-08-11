@@ -18,7 +18,7 @@ The tl;dr on a few notable transformer/language model papers + other papers (ali
   &nbsp
   &nbsp
 </p>
-Each entry includes links to the papers, original implementations (if available) and the *Huggingface* :hugs: implementations of each model.
+Each entry includes links to the papers, original implementations (if available) and the *Huggingface* :hugs: implementations of each model.    
 
 This repo also includes a [single table](notes/bigtable.md) quantifying the differences across transformer papers.
 
