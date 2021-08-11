@@ -11,8 +11,11 @@ The tl;dr on a few notable transformer/language model papers + other papers (ali
 <div align="center"> 
 <b>BERT</b> and <b>T5</b> (art from the original papers)
 </div>
-
-
+<p>
+  &nbsp
+  &nbsp
+  &nbsp
+</p>
 Each entry includes links to the papers, original implementations (if available) and the *Huggingface* :hugs: implementations of each model.
 
 This repo also includes a [single table](notes/bigtable.md) quantifying the differences across transformer papers.
