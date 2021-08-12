@@ -67,11 +67,10 @@ With the explosion in papers on all things Transformers the past few years, it s
 |Megatron-LM |  2019  |  NVIDIA |[Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)  | [Megatron notes](notes/megatron.md) | [here](https://github.com/NVIDIA/Megatron-LM) |  -  | [here](https://github.com/Adapter-Hub/adapter-transformers)|
 |Reformer  |  2020  | Google |[Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451)  | [Reformer notes](notes/reformer.md) | |  [here](https://huggingface.co/transformers/model_doc/reformer.html)  | |
 |byT5  |  2021  | Google |[ByT5: Towards a token-free future with pre-trained byte-to-byte models](https://arxiv.org/abs/2105.13626)  | [ByT5 notes](notes/byt5.md) | [here](https://github.com/google-research/byt5) |  [here](https://huggingface.co/transformers/model_doc/byt5.html)  | |
-|CLIP (<ins>@</ins>) |  2021  | OpenAI |[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)  |  [CLIP notes](notes/clip.md) | [here](https://github.com/openai/CLIP) |  [here](https://huggingface.co/transformers/model_doc/clip.html)  | |
+|CLIP |  2021  | OpenAI |[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)  |  [CLIP notes](notes/clip.md) | [here](https://github.com/openai/CLIP) |  [here](https://huggingface.co/transformers/model_doc/clip.html)  | |
 |DALL-E  |  2021  | OpenAI|[Zero-Shot Text-to-Image Generation](https://arxiv.org/abs/2102.12092)  | [DALL-E notes](notes/dalle.md)| [here](https://github.com/openai/DALL-E) | -  | |
 |Codex  |  2021  | OpenAI|[Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf)  | [Codex notes](notes/codex.md) | X | -  | |
 
-(<ins>@</ins>  This isn't technically a Transformer.)
 
 ## BigTable
 
