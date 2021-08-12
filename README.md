@@ -17,12 +17,15 @@ The tl;dr on a few notable transformer/language model papers + other papers (ali
   &nbsp
   &nbsp
   &nbsp
-</p>
-Each entry includes links to the papers, original implementations (if available) and the <i>Huggingface</i> :hugs: implementations of each model.    
+</p> 
 
-This repo also includes a [single table](notes/bigtable.md) quantifying the differences across transformer papers.
+Each set of notes includes links to the paper, the original code implementation (if available) and the <i>Huggingface</i> :hugs: implementation where applicable.  
 
-<ins>Note</ins>: There is no code implemented in this repo.
+<ins>Here is an example</ins>: [t5](notes/t5.md).  
+
+The transformers papers are presented somewhat chronologically below. Go to the ":point_right: Notes :point_left:" column below to find the notes for each paper.  
+
+This repo also includes a [table](notes/bigtable.md) quantifying the differences across transformer papers <ins>all in one table</ins>.  
 
 ## Contents
 
