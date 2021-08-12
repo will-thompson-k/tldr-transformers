@@ -19,7 +19,7 @@ The tl;dr on a few notable transformer/language model papers + other papers (ali
   &nbsp
 </p> 
 
-Each set of notes includes links to the paper, the original code implementation (if available) and the <i>Huggingface</i> :hugs: implementation where applicable.  
+Each set of notes includes links to the paper, the original code implementation (if available) and the <i>Huggingface</i> :hugs: implementation.  
 
 <ins>Here is an example</ins>: [t5](notes/t5.md).  
 
