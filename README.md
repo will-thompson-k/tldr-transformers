@@ -2,7 +2,7 @@
 
 The tl;dr on a few notable transformer/language model papers + other papers (alignment, memorization, etc). 
 
-<ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, etc.
+<ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, Megatron, DALL-E, etc.
 
 <p float="left">
 <p align="middle">
