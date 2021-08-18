@@ -88,7 +88,7 @@ All of the table summaries found ^ collapsed into one really big table [here](no
 
 | Paper   | Year   | Institute | :point_right: Notes :point_left:     | Codes |
 |    :----:   |     :----:   |    :----:   |  :----:   |    :----:   |
-| [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)| 2020 | OpenAI | To-Do | None|
+| [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)| 2020 | OpenAI | [Scaling laws notes](notes/scaling-laws.md)| None|
 
 ## Memorization
 
