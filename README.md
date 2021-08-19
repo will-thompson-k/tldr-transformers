@@ -81,7 +81,7 @@ All of the table summaries found ^ collapsed into one really big table [here](no
 
 | Paper   | Year   | Institute | :point_right: Notes :point_left:     | Codes |
 |    :----:   |     :----:   |    :----:   |  :----:   |    :----:   |
-| [Fine-Tuning Language Models from Human Preferences](https://arxiv.org/pdf/1909.08593.pdf)| 2019| OpenAI | To-Do | None|
+| [Fine-Tuning Language Models from Human Preferences](https://arxiv.org/pdf/1909.08593.pdf)| 2019| OpenAI | [Human pref notes](notes/human-pref.md)| None|
 
 
 ## Scaling
