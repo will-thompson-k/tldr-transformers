@@ -1,6 +1,8 @@
 # tldr-transformers
 
-The "tl;dr" on a few notable transformer papers. This is mainly a repo for me to keep tabs on different research threads. 
+The "tl;dr" on a few notable transformer papers. 
+
+This is mainly a repo to keep tabs on different research threads. 
 
 <ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, Megatron, DALL-E, etc.
 
