@@ -1,8 +1,12 @@
 # tldr-transformers
 
-The tl;dr on a few notable transformer/language model papers + other papers (alignment, memorization, etc). 
+The "tl;dr" on a few notable transformer papers. 
+
+This is mainly a repo to keep tabs on different research threads. 
 
 <ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, Megatron, DALL-E, etc.
+
+<ins>Topics</ins>: Transformer architectures + training; scaling laws; RL fine-tuning ("alignment"); memorization; few labels.
 
 <p float="left">
 <p align="middle">
@@ -19,13 +23,13 @@ The tl;dr on a few notable transformer/language model papers + other papers (ali
   &nbsp
 </p> 
 
-Each set of notes includes links to the paper, the original code implementation (if available) and the <i>Huggingface</i> :hugs: implementation.  
+Each set of notes includes links to the paper, the original code implementation (if available) and the Huggingface :hugs: implementation.  
 
-<ins>Here is an example</ins>: [t5](notes/t5.md).  
+<ins>Here are some examples</ins> ---> [t5](notes/t5.md), [byt5](notes/byt5.md), [deduping transformer training sets](notes/dedup.md).
+
+This repo also includes a [table](notes/bigtable.md) quantifying the differences across transformer papers <ins>all in one table</ins>.   
 
 The transformers papers are presented somewhat chronologically below. Go to the ":point_right: Notes :point_left:" column below to find the notes for each paper.  
-
-This repo also includes a [table](notes/bigtable.md) quantifying the differences across transformer papers <ins>all in one table</ins>.  
 
 ## Contents
 
@@ -95,7 +99,7 @@ All of the table summaries found ^ collapsed into one really big table [here](no
 | Paper   | Year   | Institute | :point_right: Notes :point_left:     | Codes |
 |    :----:   |     :----:   |    :----:   |  :----:   |    :----:   |
 | [Extracting Training Data from Large Language Models](https://arxiv.org/abs/2012.07805)| 2021 | Google et al. | To-Do | None|
-| [Deduplicating Training Data Makes Language Models Better](https://arxiv.org/abs/2107.06499)| 2021 | Google et al. | To-Do| None|
+| [Deduplicating Training Data Makes Language Models Better](https://arxiv.org/abs/2107.06499)| 2021 | Google et al. | [Dedup notes](notes/dedup.md)| None|
 
 
 ## FewLabels
