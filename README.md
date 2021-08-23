@@ -2,9 +2,9 @@
 
 The "tl;dr" on a few notable transformer papers. 
 
-This is mainly a repo to keep tabs on different research threads. 
+This is a repo to keep tabs on different research threads. 
 
-<ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, Megatron, DALL-E, etc.
+<ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, Megatron, DALL-E, Codex, etc.
 
 <ins>Topics</ins>: Transformer architectures + training; scaling laws; RL fine-tuning ("alignment"); memorization; few labels.
 
@@ -37,6 +37,7 @@ The transformers papers are presented somewhat chronologically below. Go to the 
 - [Motivation](#Motivation)
 - [Papers::Transformer Papers](#Models)
 - [Papers::1 Table To Rule Them All](#BigTable)
+- [Papers::Fine-tuning Papers](#FineTune)
 - [Papers::Alignment Papers](#Alignment)
 - [Papers::Scaling Law Papers](#Scaling)
 - [Papers::LM Memorization Papers](#Memorization)
@@ -80,6 +81,11 @@ With the explosion in papers on all things Transformers the past few years, it s
 
 All of the table summaries found ^ collapsed into one really big table [here](notes/bigtable.md).
 
+## FineTune
+
+| Paper   | Year   | Institute | :point_right: Notes :point_left:     | Codes |
+|    :----:   |     :----:   |    :----:   |  :----:   |    :----:   |
+| [Supervised Contrastive Learning for Pre-trained Language Model Fine-tuning](https://openreview.net/pdf?id=cu7IUiOhujH)| 2021| Facebook | [SCL notes](notes/contrastive.md)| None|
 
 ## Alignment
 
