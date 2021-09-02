@@ -11,6 +11,9 @@
 
 **Note**: This model may not be considered a language model or transformer, but it uses attention in an interesting way, so worth a read. Also note that this paper is on the longer side, 48 pages. 
 
+**Most interesting quote**: (from blog post) "Deep learning systems are often reported to achieve human or even superhuman performancey on ImageNet that surpassed reported human top-5 accuracy on vision benchmarks, yet when deployed in the wild, their performance can be far below the expectation set by the benchmark. In other words, there is a gap between “benchmark performance” and “real performance.” We conjecture that this gap occurs because the models “cheat” by only optimizing for performance on the benchmark, much like a student who passed an exam by studying only the questions on past years’ exams. In contrast, the CLIP model can be evaluated on benchmarks without having to train on their data, so it can’t “cheat” in this manner. This results in its benchmark performance being much more representative of its performance in the wild. To verify the <ins>“cheating hypothesis”</ins>, we also measure how CLIP’s performance changes when it is able to “study” for ImageNet. When a linear classifier is fitted on top of CLIP’s features, it improves CLIP’s accuracy on the ImageNet test set by almost 10%. However, this classifier does no better on average across an evaluation suite of 7 other datasets measuring “robust” performance" --> **Zero-shot performance is true robust performance, everything else is probably peaking**.
+
+
 The authors motivate the problem by observing that breakthroughs in NLP were due in large part by pre-training using web-sourced text (as opposed to needing very large, crown-sourced, high-quality "gold-label" labeled datasets). They ask if this is possible as well for CV, which is predominantly still trained on hand-labeled datasets. Note that these models are generally *discriminative models*, attempting to learn class membership for a given image. For instance, the authors point out that *Noisy Student EfficientNet-L2* requires 33 TPUv3 core-years to train, which is a lot of resources for predicting only *1000* ImageNet classes.
 
 The authors' contribution is the study of image classifiers trained with natural language understanding at large scale through **C.L.I.P.** - Constrastive Language-Image Pre-training. They find that this model architecture is able to learn to preform a wide-range of tasks during pre-training, including OCR, geo-locatization, etc. Further, the model is able to achieve SOTA results at 4x the effiency of a Transformer model.
@@ -30,6 +33,7 @@ The authors first attempted an approach of jointly training an image CNN + text 
 2. **Text**: The authors explored 2 models: (1) CBOW or (2) Transformer, with base 63M-parameter, 12-layer, 76-max sequence length, 8 attention heads, BPE encoding for vocab of ~ 50k. This model uses **MLM** (masked self-attention)
 
 **Ablation & Zero-Shot studies**: There is a lot more to this paper, specifically in the ablation and zero-shot studies, which you should check-out. Too much to summarize.
+
 
 
 ## Art

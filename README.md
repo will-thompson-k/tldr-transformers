@@ -6,7 +6,7 @@ This is a repo to keep tabs on different research threads.
 
 <ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, Megatron, DALL-E, Codex, etc.
 
-<ins>Topics</ins>: Transformer architectures + training; scaling laws; RL fine-tuning ("alignment"); memorization; few labels.
+<ins>Topics</ins>: Transformer architectures + training; adversarial attacks; scaling laws; alignment; memorization; few labels.
 
 <p float="left">
 <p align="middle">
@@ -37,6 +37,7 @@ The transformers papers are presented somewhat chronologically below. Go to the 
 - [Motivation](#Motivation)
 - [Papers::Transformer Papers](#Models)
 - [Papers::1 Table To Rule Them All](#BigTable)
+- [Papers::Adversarial Attack Papers](#Attac)
 - [Papers::Fine-tuning Papers](#FineTune)
 - [Papers::Alignment Papers](#Alignment)
 - [Papers::Scaling Law Papers](#Scaling)
@@ -80,6 +81,12 @@ With the explosion in papers on all things Transformers the past few years, it s
 ## BigTable
 
 All of the table summaries found ^ collapsed into one really big table [here](notes/bigtable.md).
+
+## Attac
+
+| Paper   | Year   | Institute | :point_right: Notes :point_left:     | Codes |
+|    :----:   |     :----:   |    :----:   |  :----:   |    :----:   |
+| [Gradient-based Adversarial Attacks against Text Transformers](https://arxiv.org/pdf/2104.13733.pdf)| 2021| Facebook | [Gradient-based attack notes](notes/gradient-attack.md)| None|
 
 ## FineTune
 
