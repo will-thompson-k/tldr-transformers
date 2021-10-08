@@ -1,21 +1,24 @@
 # tldr-transformers
 
-The "tl;dr" on a few notable transformer papers. 
+The "tl;dr" on a few notable papers on Transformers and modern NLP. 
 
-This is a repo to keep tabs on different research threads. 
+This is a living repo to keep tabs on different research threads. 
+
+**Last Updated**: September 20th, 2021.
 
 <ins>Models</ins>: GPT- *, * BERT *, Adapter- *, * T5, Megatron, DALL-E, Codex, etc.
 
-<ins>Topics</ins>: Transformer architectures + training; adversarial attacks; scaling laws; alignment; memorization; few labels.
+<ins>Topics</ins>: Transformer architectures + training; adversarial attacks; scaling laws; alignment; memorization; few labels; causality.
 
 <p float="left">
 <p align="middle">
   <img src="assets/bert_fig1.png" width="50%" />
   <img src="assets/t5_fig1_clipped.png" width="50%" />
+  <img src="assets/scaling-laws_fig1.png" width="50%" />
 </p>
 
 <div align="center"> 
-<b>BERT</b> and <b>T5</b> (art from the original papers)
+<b>BERT</b>, <b>T5</b>, <b>Scaling Laws Paper</b> (art from the original papers)
 </div>
 <p>
   &nbsp
@@ -40,6 +43,7 @@ The transformers papers are presented somewhat chronologically below. Go to the 
 - [Papers::Adversarial Attack Papers](#Attac)
 - [Papers::Fine-tuning Papers](#FineTune)
 - [Papers::Alignment Papers](#Alignment)
+- [Papers::Causality Papers](#Causal)
 - [Papers::Scaling Law Papers](#Scaling)
 - [Papers::LM Memorization Papers](#Memorization)
 - [Papers::Limited Label Learning Papers](#FewLabels)
