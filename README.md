@@ -2,7 +2,7 @@
 
 The "tl;dr" on a few notable papers on Transformers and modern NLP. 
 
-This is a living repo to keep tabs on different research threads. 
+This is a ~~living~~ repo to keep tabs on different research threads. 
 
 **Last Updated**: September 20th, 2021.
 
